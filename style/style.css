@@ -3,18 +3,16 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14pt;
     font-weight: 700;
-}
-
-.header {
-    height: 100px;
     background-color: grey;
 }
 
-.header_text {
+.header {
     display: flex;
+    height: 100px;    
     justify-content: center;
     align-items: center;
 }
+
 
 .main {
     display: flex;
@@ -91,24 +89,15 @@
 .footer {
     display: flex;
     height: 100px;
-    background-color: grey;
     justify-content: space-around;
     align-items: center;
 }
 
-
-.section_footer {
-    display: flex;
-    background-color: white;
-    width: 200px;
-    height: 70px;
-}
-
-.section_1,
-.section_2,
-.section_3,
-.section_4 {
+.section_1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    width: 200px;
+    height: 70px;
 }
